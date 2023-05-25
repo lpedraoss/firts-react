@@ -3,7 +3,7 @@ import './App.css';
 
 
 
-import ContactListComponent from './component/container/contact_list';
+import User from './hooks/user';
 
 function App() {
   return (
@@ -17,7 +17,11 @@ function App() {
         {/* <GreetingsF name={"Alfonso suarex"}></GreetingsF> */}
         {/* componente del listado de tareas */}
         {/* <TaskListComponent></TaskListComponent> */}
-        <ContactListComponent></ContactListComponent>
+        
+        {/* <ContactListComponent></ContactListComponent> */}
+        {/* Ejemplos de usos de hooks */}
+        {/* <Ejemplo></Ejemplo> */}
+        <User></User>
       </header>
     </div>
   );
